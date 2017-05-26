@@ -117,7 +117,6 @@ class AdminController < ApplicationController
     worksheet.set_row(1, 20)
     worksheet.set_row(2, 20)
     
-    worksheet.write(0, 12, 'ООО "Регион-Строй"', format_header)
     worksheet.write(1, 12, "ТАБЕЛЬ УЧЕТА РАБОЧЕГО ВРЕМЕНИ", format_header)
     worksheet.write(2, 12, "за #{month_text} #{param_date.year} год", format_header)
 
